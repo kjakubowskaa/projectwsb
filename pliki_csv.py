@@ -9,3 +9,10 @@ for i in range (len(content)):
 print(content)
 
 print(content[3][3])
+
+#obliczanie sredniej wyplaty
+total = 0
+for i in range (1,len(content)):
+    total = total +int(content[i][1])
+average = total / len(content)
+
