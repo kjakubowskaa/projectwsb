@@ -26,12 +26,27 @@ import datetime
 
 #data1 = today.strftime("dzisiaj jest %d dzień  %m miesiąca")
 #print(data1)
-name = 'raport.txt'
-for i in range (10):
-    now = datetime.datetime.now()
-    my_now = now.strftime('%H%M%S')
-    print(name[:6] + my_now + name[-4:])
-    time.sleep(2)
+#name = 'raport.txt'
+#for i in range (10):
+    #now = datetime.datetime.now()
+    #my_now = now.strftime('%H%M%S')
+    #print(name[:6] + my_now + name[-4:])
+    #time.sleep(2)
+
+#cztery liczby i ich suma
+liczba = input('podaj cztery cyfry ')
+
+
+suma = int(liczba[0]) + int(liczba[1]) + int(liczba[2]) + int(liczba[3])
+print(suma)
+
+
+
+
+
+
+
+
 
 
 
