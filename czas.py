@@ -1,5 +1,5 @@
-#import os
-
+import os
+import time
 
 #os.system('cmd c "cd C/:Users\\vdi-student\\projectwsb"')
 #os.system('cmd c "dir /s new.txt >> result.txt"')
@@ -20,9 +20,21 @@
 #print(sum2[-3:])
 
 import datetime
-today = datetime.date.today()
-print(type(today))
-print(today)
+#today = datetime.date.today()
+#print(type(today))
+#print(today)
+
+#data1 = today.strftime("dzisiaj jest %d dzień  %m miesiąca")
+#print(data1)
+name = 'raport.txt'
+for i in range (10):
+    now = datetime.datetime.now()
+    my_now = now.strftime('%H%M%S')
+    print(name[:6] + my_now + name[-4:])
+    time.sleep(2)
+
+
+
 
 
 
